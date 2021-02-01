@@ -6,5 +6,5 @@ const peer = new Peer({
 
 peer.on('open', () => {
     document.getElementById('my-id').textContent = peer.id;
-    console.log("peer.id")
+    console.log("peerIDはこれ",peer.id)
 });
